@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="icon" href="/img/Capa 19.png">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Panda Blog – Creando Nuestra Pandanidad</title>
+  <!-- Bootstrap 5.3.7 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min
+.css" rel="stylesheet" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Fuentes de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=
+Ubuntu:ital,wght@0,400;0,500&display=swap" rel="stylesheet" />
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="/ccs/estiloblog.css" />
+  <!-- Iconos FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous" />
+</head>
+<nav class="navbar fixed-top">
+  <div class="container nav-vintage d-flex justify-content-between align-items-center position-relative">
+
+    <!-- Menú Izquierdo -->
+    <ul class="d-flex gap-4 mb-0">
+      <li><a href="/index.html" class="active"><i class="bi bi-house"></i> Inicio</a></li>
+      <li><a href="/catalogo.html"><i class="bi bi-shop"></i></i>Catalogo</a></li>
+
+    </ul>
+
+    <ul><!-- Imagen central estilo sello -->
+      <img class="badge-img" src="img/Capa 19.png" alt="Vintage Badge" height="100" width= />
+    </ul>
+    <!-- Menú Derecho -->
+    <ul class="d-flex gap-4 mb-0">
+      <li><a href="/sobrenosotros.html"><i class="bi bi-newspaper"></i>Nosotros</a></li>
+      <li><a href="/blog.html"><i class="bi bi-telephone-outbound"></i>Blog</a></li>
+    </ul>
+    <ul>
+
+      <div class="container-fluid ">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end panm" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Blog</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+
+            <ul>
+              <li class="huevo1">
+                <a class="huevo1" href="#comentarios">Comentarios</a>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="huevo1">
+                <a class="huevo1" href="#comunidad">Comunidad</a>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="huevo1">
+                <a class="huevo1" href="#contactanos">Contactanos</a>
+              </li>
+            </ul>
+
+
+
+
+
+
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <ul>
+              <h4>PAN</h4>
+            </ul>
+            <ul>
+              <h4>PAN</h4>
+            </ul>
+            <ul>
+              <ul>
+                <li class="huevo1">
+                  <img src="/img/pandita 7 (1).png" alt="Panda" height="" width="">
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </ul>
+</nav>
+
+<body>
+  <header>
+    <h1 class="quicksand-bold">Panda Blog</h1>
+    <p class="ubuntu-regular">Creando Nuestra Pandanidad</p>
+  </header>
+  <main class="container my-5">
+    <div class="row gy-4" id="comentarios2"> <!-- gy-4 para espacio vertical entre filas --
+>
+<!-- Ciudadanía -->
+      <div class="col-md-6" id="comentarios">
+        <article class="post d-flex flex-column h-100">
+          <div class="post-header text-center">
+            <span class="category">Ciudadanía 🌍</span>
+            <h2 class="quicksand-bold mt-3">Panda: Orgullo de la
+              industria boliviana desde 1988</h2>
+          </div>
+          <div class="post-body ubuntu-regular flex-grow-1">
+            <div class="highlight-bg">
+              <p>Desde sus inicios, Panda ha estado presente en la vida
+                de los bolivianos como símbolo de identidad nacional. Fundada en 1988, ha
+                resistido crisis y transformaciones, manteniendo su esencia y calidad en
+                cada helado.</p>
+            </div>
+          </div>
+          <div class="img-wrapper">
+            <img src="img/pandita 4.png" alt="Panda orgulloso" class="img-panda mx-auto" />
+          </div>
+          <div class="comments mt-3">
+            <h4 class="ubuntu-medium">¿Qué significa Panda para ti?</h4>
+            <input type="text" class="form-control mb-2" placeholder="Tu
+nombre" />
+            <textarea class="form-control mb-2" rows="3" placeholder="Deja tu comentario..."></textarea>
+            <button class="btn">Enviar</button>
+          </div>
+        </article>
+      </div>
+      <!-- Testimonios -->
+      <div class="col-md-6">
+        <article class="post d-flex flex-column h-100">
+          <div class="post-header text-center">
+            <span class="category">Testimonios 💬</span>
+            <h2 class="quicksand-bold mt-3">Testimonios de nuestra
+              comunidad en redes sociales</h2>
+          </div>
+          <div class="post-body ubuntu-regular flex-grow-1">
+            <ul>
+              <li><strong>Luis León:</strong> "Sus helados son los
+                mejores"</li>
+              <li><strong>Cristobal Vaca:</strong> "Por favor hagan
+                marketing, ustedes son los mejores helados de Bolivia"</li>
+              <li><strong>Rodrigo Peeth:</strong> "Consumamos Panda, no
+                dejemos que muera esta empresa. Tiene muy buenos productos... A muchos
+                nos recuerda la infancia."</li>
+              <li><strong>Karyme Rocha:</strong> "Los mejores helados del
+                mundo"</li>
+            </ul>
+          </div>
+          <div class="comments mt-3">
+            <h4 class="ubuntu-medium">¿Tienes un testimonio para
+              compartir?</h4>
+            <input type="text" class="form-control mb-2" placeholder="Tu
+nombre" />
+            <textarea class="form-control mb-2" rows="3" placeholder="Comparte tu experiencia con Panda..."></textarea>
+            <button class="btn">Enviar</button>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- Comunidad -->
+    <div class="row mt-5" id="comunidad2">
+      <!-- Comunidad 1 -->
+      <div class="col-md-6" id="comunidad">
+        <article class="post d-flex flex-column h-100">
+          <div class="post-header text-center">
+            <span class="category">Comunidad 🤝</span>
+            <h2 class="quicksand-bold mt-3">La Familia Panda agradecida
+              por la visita de la Universidad del Valle</h2>
+          </div>
+          <div class="post-body ubuntu-regular">
+            <div class="comunidad-img-container">
+              <img src="img/panda blog.jpg" alt="Feria El Alto Panda" />
+            </div>
+            <p>La Familia Panda agradecida por la visita de los
+              estudiantes de la Universidad del Valle. Las puertas siempre estarán
+              abiertas para incentivar la educación de nuestros jóvenes y motivar
+              futuras generaciones comprometidas con Bolivia. Juntos construimos un
+              futuro más dulce y lleno de oportunidades para todos.</p>
+          </div>
+          <div class="comments mt-3">
+            <h4 class="ubuntu-medium">¿Qué opinas tú? ¡Súmate a la
+              conversación!</h4>
+            <input type="text" class="form-control mb-2" placeholder="Tu
+nombre" />
+            <textarea class="form-control mb-2" rows="3" placeholder="Deja tu comentario..."></textarea>
+            <button class="btn">Enviar</button>
+          </div>
+        </article>
+      </div>
+      <!-- Comunidad 2 -->
+      <div class="col-md-6">
+        <article class="post d-flex flex-column h-100">
+          <div class="post-header text-center">
+            <span class="category">Comunidad 🤝</span>
+            <h2 class="quicksand-bold mt-3">La Familia Panda en el día
+              del estudiante compartiendo</h2>
+          </div>
+          <div class="post-body ubuntu-regular">
+            <div class="comunidad-img-container">
+              <img src="img/estudiantes.jpg" alt="Feria El Alto Panda" />
+            </div>
+            <p>En una jornada llena de alegría, juegos y sabor, Helados
+              Panda compartió con niños de distintas provincias para festejar el Día
+              del Estudiante. Entre sonrisas, helados y actividades recreativas,
+              reafirmamos nuestro compromiso con la infancia boliviana, llevando
+              momentos inolvidables a quienes más lo merecen.</p>
+          </div>
+          <div class="comments mt-3">
+            <h4 class="ubuntu-medium">¿Estuviste ahí? ¡Cuéntanos tu
+              experiencia!</h4>
+            <input type="text" class="form-control mb-2" placeholder="Tu
+nombre" />
+            <textarea class="form-control mb-2" rows="3" placeholder="Deja tu comentario..."></textarea>
+            <button class="btn">Enviar</button>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- Contactos -->
+    <div class="container text-center my-5" id="contactanos">
+      <h1 class="contact-title quicksand-bold heading-1 ribbon" id="contactanos2">CONTÁCTOS</h1>
+      <div class="row justify-content-center align-items-center mt-5">
+        <!-- Imagen izquierda -->
+        <div class="col-md-6 text-center mb-4 mb-md-0">
+          <img src="img/pandita 5.png" alt="Contacto Panda" class="img-fluid
+rounded" style="max-width: 400px;">
+        </div>
+        <!-- Información derecha -->
+        <div class="col-md-6 text-center contact-box ubuntu-regular">
+          <div class="contact-subtitle quicksand-bold">Números de contacto:</div>
+          <p class="contact-number">(2) 2852210</p>
+          <p class="contact-number">(+591) 70696560</p>
+          <div class="contact-subtitle quicksand-bold">Facebook:</div>
+          <div class="mt-4">
+            <a href="https://www.facebook.com/HeladosPandaOficial?locale=es_LA" target="_blank">
+              <i class="fab fa-facebook fa-5x facebook-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer2">
+    <div class="footer-container">
+      <div class="footer-links">
+        <h3>Blog</h3>
+        <ul>
+          <li><a href="#comentarios2">Comentarios</li></a>
+          <li><a href="#comunidad2">Comunidad</a></li>
+          <li><a href="#contactanos2">Contactanos</a></li></a>
+
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h3>Enlaces</h3>
+        <ul>
+          <li><a href="/index.html">Inicio</li></a>
+          <li><a href="/catalogo.html">Catalogo</a></li>
+          <li><a href="/sobrenosotros.html">Sobre nosotros</a></li></a>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h3>Redes</h3>
+        <div class="icons">
+          <a href="https://www.facebook.com/heladospandabolivia" target="_blank"><img
+              src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"></script>
+    <div class="footer-bottom">
+      &copy; 2025 Panda | Todos los derechos reservados
+    </div>
+  </footer>
+  <!-- Bootstrap Bundle con Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundl
+e.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
