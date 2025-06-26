@@ -1,0 +1,141 @@
+h2{
+    color: rgb(209, 142, 65); text-align: center;
+    border-radius: 1000px;
+    background-color: rgba(255, 255, 255, 0.212);
+    font-family: cursive;
+}
+h1{
+    font-family: cursive;
+    text-transform: uppercase;
+    color: rgb(212, 135, 20);
+    font-style: italic; 
+    text-align: center;
+    border-radius: 1000px; 
+    text-shadow: #f6eddc;
+  
+  }
+    
+
+p{
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+h1 { 
+    margin: 15px;
+
+}
+h2{ 
+    margin: 15px;
+}
+a{ color: white;
+
+}
+
+
+body{
+    background-image: url(../img/Laufey_Fillmore_10-8-23-9-copy.jpg)
+}
+
+.boder{
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+}
+div {
+    margin: 10px;
+     
+}
+p{
+    color: white;
+}
+h1 { 
+    margin: 15px;
+}
+h2{ 
+    margin: 15px;
+}
+
+ /* pie de pagina */
+
+  .footer {
+    background-color: #000000a8;
+    color: #f6eddc;
+    padding: 40px 20px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 50px;
+    border-radius: 10px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer h2, .footer h3 {
+    margin-bottom: 10px;
+    color: #ffd07a;
+  }
+
+  .footer-brand p {
+    max-width: 300px;
+    font-size: 0.95em;
+  }
+
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-links ul li {
+    margin-bottom: 8px;
+  }
+
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #fcebd6;
+    transition: color 0.3s;
+  }
+
+  .footer-links ul li a:hover {
+    color: #ffd07a;
+  }
+
+  .footer-social .icons a {
+    margin-right: 10px;
+  }
+
+  .footer-social img {
+    width: 24px;
+    filter: brightness(90%);
+    transition: transform 0.2s ease;
+  }
+
+  .footer-social img:hover {
+    transform: scale(1.2);
+    filter: brightness(110%);
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.85em;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    color: #aaa;
+  }
+
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+img{ 
+  border: solid white;
+  align-items: center;
+}
